@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'GyeonggiTitleM';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiTitleM.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 html{
 	overflow: scroll;
 }
@@ -7,7 +13,7 @@ html{
 .df{display:flex;}
 .pr{position: relative;}
 .pa{position: absolute;}
-
+body{font-family: 'GyeonggiTitleM'; background-color: #269bcf;}
 #header .logo { width: 10%; height: 100%; }
 
 #header .nav { width: 50%; margin: 0 10%; display: flex; } 
@@ -35,7 +41,7 @@ a {
 	margin: auto;
 	width: 100%;
 	max-width: 1400px;
-	background: #85b0ff;
+	background: #269bcf;
 }
 .layout > * {
 	padding: 30px 0;
@@ -48,7 +54,7 @@ a {
 	position: relative;
 }
 .menu > a {
-	background-color: #85b0ff;
+	background-color: #269bcf;
 	padding: 0.5em 3.5em 0.5em 2em;
 	display: block;
 	text-align: center;
@@ -65,7 +71,7 @@ a {
 .menu .content {
 	position: absolute;
 	left: 0;
-	background: rgb(78, 255, 131);
+	background: #90c740;;
 	color: #fff;
 	padding: 20px;
 	display: none;

@@ -1,4 +1,10 @@
 @charset "utf-8";
+@font-face {
+    font-family: 'GyeonggiTitleM';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiTitleM.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 .bg1{background-color: gray;}
 .bg2{background-color: red;}
 .bg3{background-color: rgb(187, 255, 0);}
@@ -6,7 +12,7 @@
 /* reset */
 *{margin: 0; padding: 0; box-sizing: border-box;}
 html{overflow-y: scroll; overflow-x: hidden;}
-body{font-family: "Malgun Gothic", "맑은 고딕", Dotum, "돋움체", Arial, sans-serif; color:#333; background-color: #3f96f3;}
+body{font-family: 'GyeonggiTitleM'; background-color: #269bcf;}
 ul,li{list-style: none; padding:0; margin:0;}
 a{text-decoration: none; color: #ffffff;}
 .cf:after{content:''; display:block; clear:both;}
@@ -23,14 +29,14 @@ a{text-decoration: none; color: #ffffff;}
 #nav>li:hover .width100{display:block;}
 
 /* custom */
-#lnb{height:155px; background: #3f96f3; border-bottom: 1px solid #ffffff;}
+#lnb{height:155px; background: #269bcf; border-bottom: 1px solid #ffffff;}
 #lnb li{margin: 0 15px;}
 #lnb li a{display: block; line-height: 155px; text-align: center; font-size: 1.2em; font-weight: bold; }
 #lnb li a:hover{color: ;}
 #lnb li#dobongLogo{width: 250px;margin: 20px 0 0 25px;}
 #lnb .width1400 .m_tit{padding: 0px 20px 0 0;}
 #lnb .width1400 .m_tit img{display: block; margin: 20px auto; width: 135px;}
-#lnb .width100{background: #7bbe5f; top: 110px; left: 0; z-index: 2; box-shadow: 0 2px 2px rgb(0, 0, 0/7%); height: 0px; overflow: hidden; transition: all 0.5s; padding:0 0;}
+#lnb .width100{background: #90c740; top: 110px; left: 0; z-index: 2; box-shadow: 0 2px 2px rgb(0, 0, 0/7%); height: 0px; overflow: hidden; transition: all 0.5s; padding:0 0;}
 #lnb li:hover .width100{height: auto; padding: 20px 0;}
 
 
