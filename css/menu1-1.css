@@ -78,10 +78,10 @@ a {
 
 .menu .content {
 	position: absolute;
-	left: 0;
+	left: 30px;
 	background: #90c740;;
 	color: #fff;
-	padding: 20px;
+	padding: 15px;
 	display: none;
 }
 .menu:hover .content {
@@ -93,6 +93,7 @@ a {
 	display: block;
 	white-space: nowrap;
 	padding: 5px;
+	text-align: center;
 }
 .menu .content ul input + label {
 	display: block;
