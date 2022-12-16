@@ -163,7 +163,7 @@ h1{color:#fff; padding-left: 0%; margin-top: 0px; font-size: 3em; font-weight: n
 	margin-top: 100px;;
 }
 
-/*#wapper 사업소개 화면중앙배치? */
+/*#wapper  */
 #wapper{max-width: 1200px; margin: 0 auto;}
 
 /* 위치 크기 정렬 확인용 나중에 삭제 */
@@ -172,5 +172,14 @@ h1{color:#fff; padding-left: 0%; margin-top: 0px; font-size: 3em; font-weight: n
 bg1{
 	background-image: url('/images/main_company_bg.jpg');
 	background-repeat: no repeat;
-	background-size: cover;
+	background-size: 100% 100%;
+	background-position: 0 0;
+}
+
+h2{
+	font-size: 30px;
+    color: #258acb;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
 }
