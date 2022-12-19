@@ -151,7 +151,9 @@ span {font-size: 1em;}
 .main ul li{ margin: auto;}
 
 h1{color:#fff; padding-left: 0%; margin-top: 0px; font-size: 3em; font-weight: normal;}
-h3{color: black; padding-left: 0%; margin-top: 0px; font-size: 3em; font-weight: normal;}
+h3{color: black; padding-left: 0%; margin-top: 0px; font-size: 13px; font-weight: normal;}
+h5{color: black; padding-left: 0%; margin-top: 0px; font-size: 15x; font-weight: normal;}
+
 
 .section1{
 	margin: auto;
@@ -221,6 +223,7 @@ h5{font-size: 35px;}
   }
   #section4 {
     background: #9cc;
+
   }
   #section5 {
     background: #9c9;
@@ -265,3 +268,14 @@ h5{font-size: 35px;}
     height: 500px;
     background: red;
   }
+
+div.left {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+  }
+div.right {
+  width: 50%;
+  float: right;
+  box-sizing: border-box;
+}
